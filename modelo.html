@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provinha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h2>Gerador de usuários</h2>
+
+            Nome completo: <input id="nome" type="text"><br><br>
+            
+            CPF: <input id="cpf" type="text"><br><br>
+            Data de nascimento: <input id="data" type="date"><br><br>
+            Área de atuação:<br>
+            <input type="radio" id="adm" name="rad">
+                <label for="adm">Administração</label> <br>
+            <input type="radio" id="prod" name="rad">
+                <label for="prod">Produção</label> <br>
+            <input type="radio" id="ti" name="rad">
+                <label for="ti">Tecnologia</label> <br>
+            <input type="radio" id="terc" name="rad">
+                <label for="terc">Terceirizado</label><br><br>
+            <button onclick="gerarUsuario()">Gerar</button> <br><br>
+                
+        </div>
+    </header>
+  
+
+    <footer>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
